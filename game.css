@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  text-align: center;
+  margin: 100px auto;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #333;
+}
+
+#guessInput {
+  padding: 10px;
+}
+
+#guessButton {
+  padding: 10px 10px;
+}
+
+#resultMessage {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#imageContainer {
+  margin-top: 15px;
+}
+div img {
+  margin: auto;
+}
+.num-Wrapper {
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 19px -10px #000;
+  overflow: hidden;
+  margin: 20px auto;
+  cursor: pointer;
+}
+#image {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+#NUM {
+  font: 100px black bolder;
+  font-family: sans-serif;
+}
+.comNum {
+  display: none;
+}
+.num-Wrapper p {
+  font-size: 18px;
+  font-weight: bold;
+}
